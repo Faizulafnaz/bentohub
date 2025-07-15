@@ -42,14 +42,23 @@
 /************************************/	
 
 :root{
-	--primary-color		    : #FFFFFF;
+    --primary-color: #FFFFFF;
+    --secondary-color: #e96d20;      /* Vibrant orange */
+    --accent-color: #ff6200;         /* Logo color */
+    --divider-color: #FF6200;        /* Orange for dividers */
+    --dark-divider-color: #E07330;   /* Logo color for backgrounds */
+    --error-color: #E65757;
+    --text-color: #cccccc;           /* Dark text for light backgrounds */
+	--default-font: "Hanken Grotesk", serif;
+
+	/* --primary-color		    : #FFFFFF;
 	--secondary-color		: #1F2120;
 	--text-color			: #AEB0B4;
 	--accent-color			: #c47418;
 	--divider-color			: #FFFFFF1A;
 	--dark-divider-color	: #0E110D;
 	--error-color			: rgb(230, 87, 87);
-	--default-font			: "Hanken Grotesk", serif;
+	--default-font			: "Hanken Grotesk", serif; */
 }
 
 /************************************/
@@ -714,7 +723,7 @@ header.main-header .header-sticky.active{
 
 .hero{
 	position: relative;
-	background: url('../images/Japanese\ Ramen.webp');
+	background: url('../images/Mix\ sushi\ B.jpeg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -723,7 +732,7 @@ header.main-header .header-sticky.active{
 	height: 120vh;
 }
 
-.hero::before{
+/* .hero::before{
 	content: '';
 	position: absolute;
 	top: 0;
@@ -731,11 +740,11 @@ header.main-header .header-sticky.active{
 	right: 0;
 	bottom: 0;
 	background: var(--dark-divider-color);
-    opacity: 70%;
+    opacity: 1%;
 	height: 100%;
 	width: 100%;
 	z-index: 1;
-}
+} */
 
 .hero.hero-video .hero-bg-video{
 	position: absolute;
@@ -957,7 +966,7 @@ header.main-header .header-sticky.active{
 	overflow: hidden;
 }
 
-.about-us-img figure:before{
+/* .about-us-img figure:before{
     content: '';
     position: absolute;
     width: 100%;
@@ -970,7 +979,7 @@ header.main-header .header-sticky.active{
 	border-radius: 999px;
     opacity: 20%;
     z-index: 0;
-}
+} */
 
 .about-us-img img{
     width: 100%;
@@ -1715,7 +1724,7 @@ header.main-header .header-sticky.active{
 	display: block;
 }
 
-.our-ingredients-img figure::before{
+/* .our-ingredients-img figure::before{
     content: '';
     position: absolute;
     top: 0;
@@ -1726,7 +1735,7 @@ header.main-header .header-sticky.active{
     width: 100%;
     height: 100%;
     z-index: 0;
-}
+} */
 
 .our-ingredients-img img{
 	width: 100%;
@@ -2384,14 +2393,14 @@ header.main-header .header-sticky.active{
 
 .page-header{
     position: relative;
-	background: url('../images/page-header-bg.jpg');
+	background: url('../images/Mix\ sushi\ F.webp');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	padding: 270px 0 155px;
 }
 
-.page-header::before{
+/* .page-header::before{
     content: '';
     position: absolute;
     top: 0;
@@ -2400,7 +2409,7 @@ header.main-header .header-sticky.active{
     bottom: 0;
     background: var(--dark-divider-color);
     opacity: 80%;
-}
+} */
 
 .page-header-box{
     position: relative;
