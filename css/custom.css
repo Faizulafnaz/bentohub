@@ -2385,14 +2385,14 @@ header.main-header .header-sticky.active{
 
 .page-header{
     position: relative;
-	background: url('../images/Mix\ sushi\ F.webp');
+	background: url('../images/banner.webp');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	padding: 270px 0 155px;
 }
 
-/* .page-header::before{
+.page-header::before{
     content: '';
     position: absolute;
     top: 0;
@@ -2400,8 +2400,8 @@ header.main-header .header-sticky.active{
     right: 0;
     bottom: 0;
     background: var(--dark-divider-color);
-    opacity: 80%;
-} */
+    opacity: 50%;
+}
 
 .page-header-box{
     position: relative;
