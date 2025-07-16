@@ -299,4 +299,58 @@
 		});
 	}
 		
+	// Team Carousel Swiper Initialization
+	var teamSwiper = new Swiper('.team-carousel', {
+	  slidesPerView: 4,
+	  spaceBetween: 30,
+	  loop: true,
+	  navigation: {
+	    nextEl: '.swiper-button-next',
+	    prevEl: '.swiper-button-prev',
+	  },
+	  pagination: {
+	    el: '.swiper-pagination',
+	    clickable: true,
+	  },
+	  breakpoints: {
+	    1200: { slidesPerView: 4 },
+	    992: { slidesPerView: 3 },
+	    768: { slidesPerView: 2 },
+	    480: { slidesPerView: 1 }
+	  }
+	});
+
+	// Gallery Carousel Swiper Initialization
+	var gallerySwiper = new Swiper('.gallery-carousel', {
+	  slidesPerView: 3, // or 5 for more images
+	  spaceBetween: 24,
+	  loop: true,
+	  centeredSlides: true, // <-- This is important!
+	  autoplay: {
+	    delay: 2500,
+	    disableOnInteraction: false,
+	  },
+	  effect: 'coverflow',
+	  coverflowEffect: {
+	    rotate: 30,
+	    stretch: 0,
+	    depth: 100,
+	    modifier: 1,
+	    slideShadows: true,
+	  },
+	  navigation: {
+	    nextEl: '.swiper-button-next',
+	    prevEl: '.swiper-button-prev',
+	  },
+	  pagination: {
+	    el: '.swiper-pagination',
+	    clickable: true,
+	  },
+	  breakpoints: {
+	    1200: { slidesPerView: 3 },
+	    992: { slidesPerView: 2 },
+	    768: { slidesPerView: 1 }
+	  }
+	});
+		
 })(jQuery);
