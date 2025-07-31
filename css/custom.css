@@ -708,6 +708,10 @@ header.main-header .header-sticky.active{
 	color: var(--dark-divider-color);
 }
 
+.navbar-nav .nav-link.active{
+	color: var(--accent-color);
+}
+
 /************************************/
 /***        04. Hero Css	      ***/
 /************************************/
