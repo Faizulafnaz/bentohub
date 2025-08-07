@@ -718,7 +718,7 @@ header.main-header .header-sticky.active{
 
 .hero{
 	position: relative;
-	background: url('../images/Mix\ sushi\ B.jpeg');
+	background: url('../images/banner.webp');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -735,7 +735,7 @@ header.main-header .header-sticky.active{
 	right: 0;
 	bottom: 0;
 	background: var(--dark-divider-color);
-    opacity: 40%;
+    opacity: 80%;
 	height: 100%;
 	width: 100%;
 	z-index: 1;
@@ -1623,6 +1623,12 @@ header.main-header .header-sticky.active{
 	border-radius: 14px;
 	padding: 5px 20px;
 	white-space: nowrap;
+}
+
+.price-container{
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
 }
 
 .menu-item-content p{
