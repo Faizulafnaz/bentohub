@@ -1609,7 +1609,7 @@ header.main-header .header-sticky.active{
 .menu-item-title span{
 	color: var(--primary-color);
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 14px;
 	background: var(--accent-color);
 	border-radius: 14px;
 	padding: 5px 20px;
