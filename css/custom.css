@@ -807,7 +807,7 @@ header.main-header .header-sticky.active{
 
 .hero{
 	position: relative;
-	background: url('../images/banner.webp');
+	background: url('../images/Mix\ sushi\ B.jpeg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -824,7 +824,7 @@ header.main-header .header-sticky.active{
 	right: 0;
 	bottom: 0;
 	background: var(--dark-divider-color);
-    opacity: 80%;
+    opacity: 50%;
 	height: 100%;
 	width: 100%;
 	z-index: 1;
