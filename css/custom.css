@@ -1943,6 +1943,11 @@ header.main-header .header-sticky.active{
 	background: var(--dark-divider-color);
 	padding: 100px 0;
 }
+.our-ingredient{
+	position: relative;
+	background: var(--dark-divider-color);
+	padding: 200px 0;
+}
 
 
 .our-ingredients .container{
