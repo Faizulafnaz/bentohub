@@ -349,7 +349,8 @@
 	  breakpoints: {
 	    1200: { slidesPerView: 3 },
 	    992: { slidesPerView: 2 },
-	    768: { slidesPerView: 1 }
+	    768: { slidesPerView: 2 },
+	    480: { slidesPerView: 1 }
 	  }
 	});
 		
