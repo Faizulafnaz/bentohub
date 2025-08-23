@@ -350,7 +350,8 @@
 	    1200: { slidesPerView: 3 },
 	    992: { slidesPerView: 2 },
 	    768: { slidesPerView: 2 },
-	    480: { slidesPerView: 1 }
+	    480: { slidesPerView: 1 },
+		200: {slidesPerView:1}
 	  }
 	});
 		
